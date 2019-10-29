@@ -1,0 +1,53 @@
+ *{
+margin: 0;padding: 0;
+    }
+    #carousel-example-generic{
+        position: relative;
+        width: 752px;
+        height: 300px;
+        left: 50%;
+        margin-left: -376px;
+        text-align: center;
+    }
+    #carousel-example-generic ul li{
+        float: left;list-style: none;position: absolute;
+    }
+    .list-group-item{
+        border: none;
+    }
+    .hot-songer{
+        margin-left: 12%;
+    }
+    .hot-songer p{
+        display: inline-block;
+        text-align: center;
+    }
+    .hot-songer img{
+        margin: 6px 16px;
+    }
+    .footer{
+        width: 100%;
+        height: 200px;
+        background-color: #ccc;
+        padding-left: 10%;
+    }
+    .footer div{
+        float: left;
+        width: 30%;
+
+    }
+    .footer div span{
+        display: inline-block;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 20%;
+    }
+ 
+@media (min-width: 768px) {
+   
+    #bs-example-navbar-collapse-1{
+        width: 1200px;
+     }
+}
+
+
